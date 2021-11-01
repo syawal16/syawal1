@@ -1,0 +1,40 @@
+#menu ul {
+list-style: none;/*menghilangkan list style*/
+}
+#menu li{
+float:left;
+}
+#menu ul ul{
+visibility:hidden;/*menyembunyikan element*/
+width:150px;
+}
+#menu ul li:hover ul, #menu ul a:hover ul{
+visibility:visible;
+}
+#menu li a {
+height: 30px;
+width: 150px;
+display: block;
+color: black;
+border:1px solid #000000;
+background-color:#dfdfdf;
+text-decoration: none;
+text-align: center;
+padding-top:5px;
+}
+#menu ul li a{
+color:black;
+background-color:#dfdfdf;
+font:20px cambria;
+border-left:1px solid black;
+
+17
+
+border-right:1px solid black;
+text-decoration:none;
+}
+#menu ul li a:hover{
+color:white;
+background-color:black;
+text-shadow:none;
+}
